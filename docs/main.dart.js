@@ -51042,10 +51042,10 @@ a6k(a,b){if(b===2){if(B.f.aV(a,4)===0&&B.f.aV(a,100)!==0||B.f.aV(a,400)===0)retu
 return 28}return B.oO[b-1]},
 ME(a){if(a<10)return"0"+a
 return""+a},
-GF(a){var s=B.hp[A.a5(a)-1]
+GF(a){var s=B.ho[A.a5(a)-1]
 return B.If[A.da(a)-1]+", "+s+" "+A.b1(a)+", "+A.a3(a)},
 GG(a){var s=B.f.k(A.a3(a))
-return B.hp[A.a5(a)-1]+" "+s},
+return B.ho[A.a5(a)-1]+" "+s},
 aoH(a){var s,r,q,p,o,n,m=null
 if(a==null)return m
 p=a.split("/")
@@ -85885,7 +85885,7 @@ return this.yk(a,s,s,s,b,c,s,s)},
 tL(a,b,c,d){var s=null
 return this.yk(a,s,s,b,s,s,c,d)}}
 A.nJ.prototype={
-a7(){return new A.Ca(new A.u_(B.lC,$.ab()),B.d6,A.da(new A.aQ(Date.now(),0,!1)),B.b.gab(B.ho))}}
+a7(){return new A.Ca(new A.u_(B.lC,$.ab()),B.d6,A.da(new A.aQ(Date.now(),0,!1)),B.b.gab(B.hq))}}
 A.Ca.prototype={
 x7(){var s=0,r=A.T(t.H),q=this,p,o,n,m
 var $async$x7=A.U(function(a,b){if(a===1)return A.Q(b,r)
@@ -85924,7 +85924,7 @@ s.G$=$.ab()
 s.F$=0
 this.au()},
 H(a){var s,r,q=this,p=null,o=A.Ho(p,B.VF),n=A.atD(!0,B.cU,!1,p,!0,B.H,p,A.aBH(),q.d,p,p,p,p,p,2,B.oq,B.a5,!0,p,!0,p,!1,p,B.da,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,new A.aeT(q),p,!1,p,p,!1,p,!0,p,B.jI,p,p,B.cJ,B.cq,p,p,p,p,p,p,p,!0,B.aG,p,B.lB,p,B.ii,p,p),m=A.xs(B.or,B.oM,new A.aeU(q),q.e,t.cf),l=A.br("Color",p,p,p,A.B(a).ok.as,p,p,p),k=t.p,j=A.b([],k)
-for(s=0;s<5;++s){r=B.ho[s]
+for(s=0;s<9;++s){r=B.hq[s]
 j.push(new A.OU(A.b9(r),q.x===r,new A.aeV(q,r),p))}n=A.b([n,B.bU,m,B.bU,new A.dA(B.dk,p,p,l,p),B.ls,A.aeE(j,10,10),B.bU],k)
 if(q.e===B.d6){m=q.f
 n.push(A.dL(A.b([A.fr(A.axK(B.oo,A.br(m==null?"Elegir fecha (opcional)":"Fecha: "+A.hk(m),p,p,p,p,p,p,p),q.gadG()),1)],k),B.W,B.O,B.ag))}if(q.e===B.dZ){m=q.r
@@ -85954,7 +85954,7 @@ $0(){return this.a.x=this.b},
 $S:0}
 A.aeW.prototype={
 $1(a){var s=null
-return A.a_s(A.br(B.hq[a],s,s,s,s,s,s,s),a+1,t.S)},
+return A.a_s(A.br(B.hp[a],s,s,s,s,s,s,s),a+1,t.S)},
 $S:80}
 A.aeX.prototype={
 $1(a){var s=this.a
@@ -86071,7 +86071,7 @@ $0(){return this.a.e=this.b},
 $S:0}
 A.aiv.prototype={
 $1(a){var s=null
-return A.a_s(A.br(B.hq[a],s,s,s,s,s,s,s),a+1,t.S)},
+return A.a_s(A.br(B.hp[a],s,s,s,s,s,s,s),a+1,t.S)},
 $S:80}
 A.aiw.prototype={
 $1(a){var s=this.a
@@ -86195,7 +86195,7 @@ switch(a.b.a){case 0:s=a.r
 return"Una sola vez ("+(s==null?a.e:s)+")"
 case 1:return"Todos los d\xedas"
 case 2:r=a.f
-return"Semanal: cada "+B.hq[(r==null?A.da(A.eJ(a.e)):r)-1]
+return"Semanal: cada "+B.hp[(r==null?A.da(A.eJ(a.e)):r)-1]
 case 3:return"Semanal: cualquier d\xeda (1 vez por semana)"
 case 4:q=a.w
 p=B.f.dr(q==null?1:q,1,7)
@@ -86464,7 +86464,7 @@ o=t.kK
 n=i.P4(r)
 m=i.w9(r)
 l=r.x
-return A.aJd(new A.tX(p,m,"\u2022 "+n,new A.ak6(i,s),new A.ak7(i,s),new A.ak8(i,r,s),new A.ak9(i,s),A.b9(l==null?B.b.gab(B.ho):l),new A.c9("active_"+q+"_"+p,o)),b,new A.c9("drag_active_"+q,o))}i=k.c
+return A.aJd(new A.tX(p,m,"\u2022 "+n,new A.ak6(i,s),new A.ak7(i,s),new A.ak8(i,r,s),new A.ak9(i,s),A.b9(l==null?B.b.gab(B.hq):l),new A.c9("active_"+q+"_"+p,o)),b,new A.c9("drag_active_"+q,o))}i=k.c
 if(i&&b===h)return A.eH(j,A.br("Completadas",j,j,j,A.B(a).ok.w,j,j,j),B.v,j,j,j,j,j,B.X_,j,B.G2,j,j,j)
 i=i?1:0
 s=k.d[b-(h+i)]
@@ -86776,7 +86776,7 @@ H(a){var s,r,q,p=null,o=this.c
 switch(o.b.a){case 1:s="Todos los d\xedas"
 break
 case 2:r=o.f
-s="Semanal: cada "+B.hq[(r==null?A.da(A.eJ(o.e)):r)-1]
+s="Semanal: cada "+B.hp[(r==null?A.da(A.eJ(o.e)):r)-1]
 break
 case 3:s="Semanal: cualquier d\xeda (una vez por semana)"
 break
@@ -91327,12 +91327,11 @@ B.oA=new A.oH(3,"center")
 B.Ho=new A.oH(4,"bottom")
 B.oB=A.b(s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"]),t.s)
 B.km=A.b(s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]),t.s)
-B.ho=A.b(s([4280191205,4292352864,4282622023,4294826037,4287505578]),t.t)
 B.HO=A.b(s([4,9,14,19]),t.t)
 B.m6=new A.EJ(0,"named")
 B.AZ=new A.EJ(1,"anonymous")
 B.HY=A.b(s([B.m6,B.AZ]),A.an("z<EJ>"))
-B.hp=A.b(s(["January","February","March","April","May","June","July","August","September","October","November","December"]),t.s)
+B.ho=A.b(s(["January","February","March","April","May","June","July","August","September","October","November","December"]),t.s)
 B.oC=A.b(s([0,4,12,1,5,13,3,7,15]),t.t)
 B.oD=A.b(s([6,7]),t.t)
 B.XH=new A.fH(0,1)
@@ -91361,7 +91360,7 @@ B.Ib=A.b(s([B.Bb]),t.Kg)
 B.Bc=new A.k2(8,12)
 B.Ic=A.b(s([B.Bc]),t.Kg)
 B.Id=A.b(s([B.iZ,B.j_]),A.an("z<wo>"))
-B.hq=A.b(s(["Lunes","Martes","Mi\xe9rcoles","Jueves","Viernes","S\xe1bado","Domingo"]),t.s)
+B.hp=A.b(s(["Lunes","Martes","Mi\xe9rcoles","Jueves","Viernes","S\xe1bado","Domingo"]),t.s)
 B.Ie=A.b(s(["BC","AD"]),t.s)
 B.oF=A.b(s(["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]),t.s)
 B.If=A.b(s(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]),t.s)
@@ -91404,6 +91403,7 @@ B.Ix=A.b(s([B.ap,B.j]),A.an("z<Br>"))
 B.aT=new A.Bu(0,"rtl")
 B.aq=new A.Bu(1,"ltr")
 B.kn=A.b(s([B.aT,B.aq]),A.an("z<Bu>"))
+B.hq=A.b(s([4280191205,4292352864,4282622023,4294826037,4287505578,4294901760,4278255607,4294925568,4288256409]),t.t)
 B.IC=A.b(s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]),t.s)
 B.DF=new A.qB(0,"auto")
 B.DG=new A.qB(1,"full")
@@ -94080,7 +94080,7 @@ s($,"aTu","aDW",()=>A.a3G(A.c8([B.kz],t.J)))
 s($,"aSL","aDt",()=>A.a3G(A.c8([B.kA],t.J)))
 s($,"aTo","aDU",()=>A.a3G(A.c8([B.kB],t.J)))
 s($,"aUh","aEo",()=>new A.a7Z(A.v(t.N,A.an("aF<cT?>?(cT?)"))))
-s($,"aU1","aEi",()=>new A.Zq("en_US",B.Ie,B.Jl,B.oL,B.oL,B.hp,B.hp,B.km,B.km,B.oE,B.oE,B.oF,B.oF,B.kr,B.kr,B.It,B.Ji,B.I9))
+s($,"aU1","aEi",()=>new A.Zq("en_US",B.Ie,B.Jl,B.oL,B.oL,B.ho,B.ho,B.km,B.km,B.oE,B.oE,B.oF,B.oF,B.kr,B.kr,B.It,B.Ji,B.I9))
 r($,"aSQ","arU",()=>A.azl("initializeDateFormatting(<locale>)",$.aEi()))
 r($,"aTZ","avg",()=>A.azl("initializeDateFormatting(<locale>)",B.L1))
 s($,"aTR","aEe",()=>48)
@@ -94166,7 +94166,7 @@ c=j[1]
 i=j[2]
 h=[400*d/(d+27.13),400*c/(c+27.13),400*i/(i+27.13)]
 return new A.aey(l,(40*h[0]+20*h[1]+h[2])/20*k,k,k,a1,1,q,m,A.GR(m,0.25),1.48+e)})
-r($,"aTs","vZ",()=>B.b.gab(B.ho))
+r($,"aTs","vZ",()=>B.b.gab(B.hq))
 s($,"aRg","arR",()=>A.awC())
 s($,"aRF","av4",()=>new A.O())
 r($,"aJN","av3",()=>{var q=new A.a6C()
